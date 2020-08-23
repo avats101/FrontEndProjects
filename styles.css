@@ -80,7 +80,9 @@ body {
   .card-color-3 {
     background-color: #888DA7;
   }
-  
+  .card-color-4 {
+    background-color: #5dd0df;
+  }
   /* The cover (expanding background) */
   .cover {
     position: fixed;
