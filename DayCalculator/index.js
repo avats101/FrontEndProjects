@@ -51,11 +51,11 @@ function year_calculate(year)
 { 
     var a=year%100;
     var y=year-a;
-    if (y%4==1)
+    if ((y/100)%4==1)
     year_number=5;
-    else if (y%4==2)
+    else if ((y/100)%4==2)
     year_number=3;
-    else if (y%4==3)
+    else if ((y/100)%4==3)
     year_number=1;  
     else
     year_number=0;
