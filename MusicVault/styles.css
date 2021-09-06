@@ -1,0 +1,242 @@
+area {
+  outline-color: white;  
+  border: 100px solid red;
+}
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color: whitesmoke;
+}
+
+img, iframe {
+  padding: 15px;
+  border: 4px solid black;
+  border-radius: 18px;
+  -webkit-box-shadow: 3px 3px silver;
+          box-shadow: 3px 3px silver;
+}
+.animateit{
+  animation: lefttoright 5s;
+  animation-direction:normal;
+  position:absolute;
+  animation-fill-mode: forwards; 
+}
+@keyframes lefttoright {
+  0% { left: 0;}
+  100%{ left: 33%;}
+}
+.botnav {
+  padding: 30px;
+  text-align: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#383838), to(grey));
+  background-image: -o-linear-gradient(#383838, grey);
+  background-image: linear-gradient(#383838, grey);
+}
+
+.bottom {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 30px;
+  margin-left: 560px;
+  text-align: center;
+  font-size: 22px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#383838), to(black));
+  background-image: -o-linear-gradient(#383838, black);
+  background-image: linear-gradient(#383838, black);
+  height: 60px;
+  width: 250px;
+  border-radius: 20px;
+  color: white;
+  border-color: transparent;
+}
+
+.bottom:hover {
+  background-image: none;
+  background-color: black;
+  color: red;
+}
+
+.bottom:active {
+  color: darkred;
+  -webkit-transform: translateX(1px) translateY(1px);
+      -ms-transform: translateX(1px) translateY(1px);
+          transform: translateX(1px) translateY(1px);
+}
+
+.blahtext {
+  line-height: 2;
+  text-align: justify;
+  font-weight: normal;
+}
+
+.blog {
+  margin-top: 40px;
+}
+
+.bullet {
+  position: absolute;
+  left: 250px;
+  font-weight: bolder;
+}
+
+.date {
+  font-weight: bold;
+  width: 10.5%;
+}
+
+.exit {
+  margin-top: 30px;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.fa {
+  color: white;
+  margin-left: 5px;
+}
+
+.footer-link {
+  padding: 20px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.intro {
+  padding: 30px 80px;
+  animation-direction: alternate;
+}
+
+.inp {
+  margin-left: 15px;
+  width: 100px;
+  border-radius: 18px;
+}
+
+.imgtext {
+  text-align: center;
+  font-weight: bold;
+}
+.imganimate{
+  animation-name:pop;
+  animation-duration:3s;
+}
+@keyframes pop{
+  0%{width:0%; transform: rotate(45deg);}
+  50%{width:50%; transform: rotate(180deg);}
+  100%{width:100%; transform: rotate(360deg);}
+}
+.logo {
+  display: inline-block;
+  padding: 0 40px;
+  font-size: 2.5rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo a:hover {
+  color: silver;
+  cursor: pointer;
+}
+
+.nav {
+  background-color: red;
+  width: 100%;
+  height: 135px;
+  text-align: center;
+}
+
+.navitem {
+  text-decoration: none;
+  margin: 0 50px;
+  color: white;
+  font-family: Garamond;
+  font-size:150%;
+}
+
+.navitem:hover {
+  margin: 0 50px;
+  color: red;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.navedge {
+  text-decoration: none;
+  margin: 0 150px;
+  color: white;
+  font-size: 16px;
+}
+
+.navedge:hover {
+  margin: 150px;
+  color: red;
+  cursor: pointer;
+}
+
+.blacksub {
+  margin-left: 30px;
+  color: rgb(7, 7, 7);
+}
+
+.redlink {
+  text-decoration: none;
+  color: red;
+}
+
+.redlink:hover {
+  color: darkred;
+}
+
+.resource {
+  font-size: 24px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#383838), to(black));
+  background-image: -o-linear-gradient(#383838, black);
+  background-image: linear-gradient(#383838, black);
+  width: 80%;
+  height: 40px;
+  text-align: center;
+  color: white;
+  border-radius: 18px;
+  list-style: none;
+  margin: 3px 100px;
+  padding: 20px;
+}
+
+.resource:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.resources {
+  padding: 25px 80px;
+}
+
+.smallnav {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#383838), to(black));
+  background-image: -o-linear-gradient(#383838, black);
+  background-image: linear-gradient(#383838, black);
+  height: 25px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.songimg {
+  display: inline-block;
+  margin: auto 50px;
+}
+
+.vault {
+  padding: 30px 80px;
+}
